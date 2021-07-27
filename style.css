@@ -1,5 +1,6 @@
 p {
 font-size: 20px;
+    font-family: cursive;
 }
 body {
   text-align: center;
@@ -8,5 +9,54 @@ body {
     background-color: lightgreen;
 }
 #name {
+    margin-top: 50px;
    background-color: cyan;
+}
+.menu {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;   
+    margin-left: 600px;
+}
+
+.links {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#mine {
+    width: 255px;
+    height: 383px;
+}
+#minecraft {
+    background-color: darkgoldenrod;
+}
+#fod {
+    width: 680px;
+    height: 680px;
+}
+#food {
+    background-color: darkorchid;
+}
+#contact {
+    background-color: darkturquoise;
+}
+h3 {
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 40px;
 }
